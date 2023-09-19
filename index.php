@@ -4,7 +4,7 @@ session_start(); // 启动会话
 
 //你可以在下面位置设置这个网站的访问密码
 //你可以在193行的位置设置$proxyServer = '127.0.0.1';和$proxyPort = '10809';设置代理ip与端口
-$accessPassword = "whm";
+$accessPassword = "password";
 
 if (isset($_SESSION['authenticated']) && $_SESSION['authenticated'] === true) {
     // 用户已通过验证，允许访问网站
